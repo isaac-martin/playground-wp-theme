@@ -1,7 +1,8 @@
 <?php
 /*
- *  Author: Isaac Martin | @isaacmartin23
- *  Custom functions, support, custom post types and more. Based on HTML5 Blank
+ *  Author: Todd Motto | @toddmotto
+ *  URL: html5blank.com | @html5blank
+ *  Custom functions, support, custom post types and more.
  */
 
 /*------------------------------------*\
@@ -114,14 +115,14 @@ function html5blank_conditional_scripts()
 // Load HTML5 Blank styles
 function html5blank_styles()
 {
-    wp_register_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), '1.0', 'all');
+    wp_register_style('normalize', get_template_directory_uri() . 'css/normalize.css', array(), '1.0', 'all');
     wp_enqueue_style('normalize'); // Enqueue it!
 
-    wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
-    wp_enqueue_style('html5blank'); // Enqueue it!
+    wp_register_style('maincss', get_template_directory_uri() . 'css/main.css', array(), '1.0', 'all');
+    wp_enqueue_style('maincss'); // Enqueue it!
 
-      wp_register_style('mainstyles', get_template_directory_uri() . '/css/main.css', array(), '1.0', 'all');
-    wp_enqueue_style('mainstyles'); // Enqueue it!
+        wp_register_style('wpinfo', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
+    wp_enqueue_style('wpinfo'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation

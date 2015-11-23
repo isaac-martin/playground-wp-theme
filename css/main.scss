@@ -1,11 +1,11 @@
 /*
-	Theme Name: Akura
-	Theme URI: http://weareplayground.co
-	Description:Playground Blank Wordpress Theme, with thanks to Todd Motto + Bootstrap
-	Version: 1.0
+	Theme Name: Playground Blank
+	Theme URI: http://html5blank.com
+	Description: Blank WP Theme for Custom Jobs @ Playground (Thanks To Todd Motto + Twitter Bootstrap)
+	Version: 1.2
 	Author: Isaac Martin (@isaacmartin23)
 	Author URI: http://weareplayground.co
-	Tags: Blank, HTML5, CSS3, Bootstrap, jQuery
+	Tags: Blank, HTML5, CSS3, SASS, SCSS
 
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
@@ -68,6 +68,24 @@ input:focus {
 	outline:0;
 	border:1px solid #04A4CC;
 }
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
 
 
 /*------------------------------------*\
@@ -164,6 +182,7 @@ a img.aligncenter {
 
 }
 
+
 /*------------------------------------*\
     PRINT
 \*------------------------------------*/
@@ -219,29 +238,17 @@ a img.aligncenter {
 }
 
 
-/*--------------------
-IMPORT FONTS
----------------------*/
+/*------------------------------------*\
+	STYLESHEET IMPORTS
+\*------------------------------------*/
 
-@import "fonts";
-
-
-/*--------------------
-IMPORT BOOTSTRAP
----------------------*/
-
-@import "bootstrap";
+@import 'bootstrap';
+@import 'fonts';
 
 
-/*--------------------
-START OF CUSTOM STYLING
----------------------*/
+/*------------------------------------*\
+	RESPONSIVE IMPORTS
+\*------------------------------------*/
 
+@import 'responsive';
 
-
-
-/*--------------------
-IMPORT RESPONSIVE STYLES
----------------------*/
-
-@import "responsive";
